@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.rotemtam;
+option go_package = "github.com/rotemtam/pbreflect/model";
+
+message User {
+	string user_name = 1;
+	int64 joined_ts_millis = 2;
+}
+
