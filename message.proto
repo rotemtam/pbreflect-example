@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package com.rotemtam;
-option go_package = "github.com/rotemtam/pbreflect/model";
+option go_package = "github.com/rotemtam/pbreflect-example/model";
 
 message User {
 	string user_name = 1;
